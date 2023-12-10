@@ -41,7 +41,7 @@ file.close()
 
 txt = ""
       
-for i in range(0,10000):
+for i in range(0,work):
     # 작품 선택 + 정보 탭 선택
     path = data[i] + '?tab_type=about'
     driver.get(path)
